@@ -11,7 +11,7 @@ NEGRO OPACO 1C1C1C
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Para que no se salga del contenedor*/
     font-family: work Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,6 +31,8 @@ html {
     z-index: 99;
 }
 
+
+/*fondo*/
 .contenedor-header header {
     max-width: 1100px;
     margin: auto;
@@ -49,7 +51,7 @@ html {
     
 }
 
-/* MENU- Titulos */
+/* MENU- */
 .contenedor-header header ul {
     display: flex;
     list-style: none;
@@ -77,10 +79,9 @@ html {
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
-    cursor: pointer;
-    display: none;
+    cursor: pointer; /*al colocar el cursor aparece una manito*/
+    display: none; /*Desaparezca el icono*/
 }
-
 
 /* SECCION PRINCIPAL - Inicio */
 
@@ -92,6 +93,7 @@ html {
     color: #fff;
     display: flex;
     align-items: center;
+    text-align: justify;
     
 
 }
@@ -106,8 +108,6 @@ html {
     border-radius: 40px;
    
 }
-
-
 /*Circulo rosado*/
 .inicio .contenido-fondo img{
   
@@ -116,7 +116,7 @@ html {
     margin: auto;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+    border-radius: 50%; /*circular*/
     
 }
 
@@ -180,6 +180,7 @@ html {
     line-height: 22px;
     margin-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
 /* SOY YANINA FUENTES...*/
 .sobremi .contenido-seccion p span{
@@ -341,14 +342,220 @@ html {
     margin-bottom: 30px;
 }
 
-.habilidadesprofesionales .habilidades .progreso{
+/*Creacion de contenido*/
+.habilidadesprofesionales .habilidades .progreso {
     background-color: #f72585;
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
+    animation: progreso 2s forwards;
 }
 
+@keyframes progreso {
+    0%{width: 0;}
+    100%{width: 85%;}
+}
+
+/*Adobe*/
+.habilidadesprofesionales .habilidades .progreso1 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso1 2s forwards;
+}
+
+@keyframes progreso1 {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+
+/*html*/
+.habilidadesprofesionales .habilidades .progreso2 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso2 2s forwards;
+}
+
+@keyframes progreso2 {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+/*css*/
+.habilidadesprofesionales .habilidades .progreso3 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso3 2s forwards;
+}
+
+@keyframes progreso3 {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+/*Java*/
+.habilidadesprofesionales .habilidades .progreso4 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso4 2s forwards;
+}
+
+@keyframes progreso4 {
+    0%{width: 0;}
+    100%{width: 20%;}
+}
+
+
+/*Canva*/
+.habilidadesprofesionales .habilidades .progreso5 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso5 2s forwards;
+}
+
+@keyframes progreso5 {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+/*Trello*/
+.habilidadesprofesionales .habilidades .progreso6 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso6 2s forwards;
+}
+
+@keyframes progreso6 {
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+
+/*Paquete Office*/
+.habilidadesprofesionales .habilidades .progreso7 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso7 2s forwards;
+}
+
+@keyframes progreso7 {
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+
+/*Comunicacion Multimedial*/
+.habilidadesprofesionales .habilidades .progreso8 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso8 2s forwards;
+}
+
+@keyframes progreso8 {
+    0%{width: 0;}
+    100%{width: 75%;}
+}
+
+/*Trabajo en equipo*/
+.habilidadesprofesionales .habilidades .progreso9 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso9 2s forwards;
+}
+
+@keyframes progreso9 {
+    0%{width: 0;}
+    100%{width: 85%;}
+}
+
+/*Cretividad*/
+.habilidadesprofesionales .habilidades .progreso10 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso10 2s forwards;
+}
+
+@keyframes progreso10 {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+/*Dedicacion*/
+.habilidadesprofesionales .habilidades .progreso11 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso11 2s forwards;
+}
+
+@keyframes progreso11 {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+/*Responsabilidad*/
+.habilidadesprofesionales .habilidades .progreso12 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso12 2s forwards;
+}
+
+@keyframes progreso12 {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+
+/*Puntualidad*/
+.habilidadesprofesionales .habilidades .progreso12 {
+    background-color: #f72585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    animation: progreso12 2s forwards;
+}
+
+@keyframes progreso12 {
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+ /* Circulos %*/
 .habilidadesprofesionales .habilidades .barra-habilidades span{
     position: absolute;
     height: 40px;
@@ -525,10 +732,9 @@ html {
 
 }
 
-
 /* Seccion Contacto*/
 
-/*Fonfo*/
+/*Fondo*/
 .contacto{
     background-image: url(mapa/Mapa.jpg);
     background-color: #1c1c1c;
@@ -546,9 +752,9 @@ html {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 20px 0;
+    color: #1c1c1c;
 
 }
-
 
 .contacto .fila{
     display: flex;
@@ -561,7 +767,7 @@ html {
 }
 
 /* formulario*/
-.contacto .col input,  .contacto .col textarea {
+.contacto .col input, .contacto .col textarea {
     display: block;
     width: 100%;
     padding: 18px;
@@ -581,11 +787,11 @@ html {
     width: fit-content;
     display: block;
     margin: 20px auto;
-    padding: 10px 22px;
+    padding: 10px 20px;
     font-size: 16px;
     color: #1c1c1c;
-    position: relative;
     z-index: 10;
+    position: relative;
 }
 
 /*Efecto del boton*/
@@ -627,6 +833,7 @@ html {
     margin-bottom: 20px;
 }
 
+/* caja-Mis  datos*/
 .contacto .col .info ul li i {
     color: #f72585;
     display: inline-block;
@@ -640,26 +847,6 @@ footer{
     text-align: center;
     position: relative;
     width: 100%;
-}
-
-footer .redes{
-    margin-bottom: 20px;
-
-}
-
-footer.redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-    transition: .3s;
-
 }
 
 footer .arriba {
@@ -678,12 +865,22 @@ footer .arriba {
 
 }
 
+footer h2 {
+    color: #f72585;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /*Seccion Responsive*/
 
-@media  screen and (max-width:800px){
+@media  screen and (max-width:980px){
     nav{
         display: none;
     }
+
+    .nav-responsive{
+        display: block;
+    }
+
     nav.responsive{
         display: block;
         position: absolute;
@@ -693,21 +890,21 @@ footer .arriba {
         width: 180px;
     }
     
-    .nav-responsive{
-        display: block;
-    }
+   
     nav.responsive ul{
         display: block !important;
+    
     }
 
     nav.responsive ul li{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
+
 }
 
-@media screen and (max-width:800px) {
-    .sobremi .fila {
+@media screen and (max-width:700px){
+    .sobremi .fila{
         display: block;
     }
     .sobremi .fila .col{
@@ -744,7 +941,7 @@ footer .arriba {
     .portfolio .galeria .proyecto{
         max-width: 100%;
     }
-    .portfolio .galeria .proyecto img {
+    .portfolio .galeria .proyecto img{
         width: 100%;
     }
 
@@ -752,9 +949,12 @@ footer .arriba {
         display: block;
     }
 
-    .contacto .fila .col {
+    .contacto .fila .col{
         width: 100%;
+       
     }
+
+
 }
 
 

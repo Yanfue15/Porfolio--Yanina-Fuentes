@@ -15,20 +15,22 @@
                 <div class="logo">
                     <a href="#"> YanFue </a>
                 </div>
-                    <nav id="nav" class="responsive">
+                    <nav id="nav"> 
                         <ul> 
-                            <li><a href="#inicio">Inicio</a></li>
-                            <li><a href="#sobremi">Sobre mi</a></li>
-                            <li><a href="#curriculum">Curriculum</a></li>
-                            <li><a href="#porfolio">Porfolio</a></li>
-                            <li><a href="#contacto">Contacto</a></li>
+                            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                            <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
                         </ul>
                     </nav>
-                    <div class="nav-responsive">
-                        <i class="fa-solid fa-bars"></i> 
-                        <!-- Icono de las 3 rayas que se encunetra en el 
-                        lateral, pag fontawesome.com-->
-                    </div>
+                    
+                     <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                         <!--Icono de las 3 rayas que se encunetra en el 
+                        lateral, pag fontawesome.com -->
+                    </div> 
+         
             </header>
         </div>
 
@@ -42,9 +44,9 @@
                  <h2>Community Manager - Asistente virtul</h2>
                 <div class="redes">
                     <!--Copiamos el linck de fontsone.com de los iconos que querramos-->
-                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                     <a href="#"><i class="fa-brands fa-github"></i></a>
-                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                     <a href="https://www.linkedin.com/in/yaninafuentes/"><i class="fa-brands fa-linkedin-in"></i></a>
+                     <a href="https://github.com/Yanfue15"><i class="fa-brands fa-github"></i></a>
+                     <a href="https://walink.co/f39847"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
         </section>
@@ -54,13 +56,12 @@
             <div class="contenido-seccion">
                 <h2>Sobre Mi</h2>
                 <p><span>Hola, Soy Yanina Fuentes.</span>
-                Tengo un alto sentido del compromiso y la responsabilidad
-                por lo que puedo garantizar que la tarea que me sea asignada
-                será gestionada con diligencia. No obstante, cuando en 
-                ocasiones surgen dificultades que puedan entorpecer el 
-                desarrollo de la actividad, propongo soluciones y alternativas
-                útiles para acelerar los tiempos de respuesta. Tengo la
-                capacidad para negociar, tomar decisiones y resolver problemas.
+                Tengo un alto sentido del compromiso y la responsabilidad por lo que puedo 
+                garantizar que la tarea que me sea asignada será gestionada con diligencia. 
+                No obstante, cuando en ocasiones surgen dificultades que puedan entorpecer 
+                el desarrollo de la actividad, propongo soluciones y alternativas útiles 
+                para acelerar los tiempos de respuesta. Tengo la capacidad para negociar,
+                tomar decisiones y resolver problemas.
                 Puntualidad y responsabilidad.</p>
             
                 <!--Datos personales-->
@@ -131,19 +132,19 @@
                    <!--Habilidades-->
                     <div class="col">
                         <h3>Habilidades </h3>
-                            <div class="habilidades">
-                                  <span>Creacion de contenido</span>
-                                  <div class="barra-habilidades">
-                                     <div class="progreso">
-                                        <span>90%</span>
-                                     </div>
-                                  </div>
+                        <div class="habilidades">
+                            <span>Creacion de contenido</span>
+                            <div class="barra-habilidades">
+                                <div class="progreso">
+                                   <span>90%</span>
+                                </div>
                             </div>
+                        </div>  
 
                             <div class="habilidades">
                                 <span>Adobe</span>
                                 <div class="barra-habilidades">
-                                    <div class="progreso">
+                                    <div class="progreso1">
                                        <span>70%</span>
                                     </div>
                                 </div>
@@ -152,7 +153,7 @@
                             <div class="habilidades">
                                 <span>HTML</span>
                                 <div class="barra-habilidades">
-                                    <div class="progreso">
+                                    <div class="progreso2">
                                         <span>30%</span>
                                     </div>
                                 </div>
@@ -161,7 +162,7 @@
                          <div class="habilidades">
                                 <span>CSS</span>
                                 <div class="barra-habilidades">
-                                        <div class="progreso">
+                                        <div class="progreso3">
                                             <span>30%</span>
                                         </div>
                                 </div>
@@ -170,8 +171,8 @@
                          <div class="habilidades">
                               <span>Javascript</span>
                                 <div class="barra-habilidades">
-                                    <div class="progreso">
-                                        <span>30%</span>
+                                    <div class="progreso4">
+                                        <span>20%</span>
                                     </div>
                                 </div>
                          </div>
@@ -179,7 +180,7 @@
                          <div class="habilidades">
                              <span>Canva</span>
                                 <div class="barra-habilidades">
-                                    <div class="progreso">
+                                    <div class="progreso5">
                                         <span>90%</span>
                                     </div>
                                </div>
@@ -188,7 +189,7 @@
                          <div class="habilidades">
                                 <span>Trello</span>
                                 <div class="barra-habilidades">
-                                    <div class="progreso">
+                                    <div class="progreso6">
                                        <span>80%</span>
                                     </div>
                                 </div>
@@ -197,7 +198,7 @@
                             <div class="habilidades">
                                  <span>Paquete Office</span>
                                 <div class="barra-habilidades">
-                                    <div class="progreso">
+                                    <div class="progreso7">
                                          <span>80%</span>
                                     </div>
                                 </div>
@@ -209,8 +210,8 @@
                         <div class="habilidades">
                             <span>Comunicacion Multimedial</span>
                             <div class="barra-habilidades">
-                                <div class="progreso">
-                                    <span>80%</span>
+                                <div class="progreso8">
+                                    <span>75%</span>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +219,7 @@
                         <div class="habilidades">
                             <span>Tabajo en equipo</span>
                             <div class="barra-habilidades">
-                                <div class="progreso">
+                                <div class="progreso9">
                                     <span>85%</span>
                                 </div>
                             </div>
@@ -226,7 +227,7 @@
                         <div class="habilidades">
                             <span>Creatividad</span>
                             <div class="barra-habilidades">
-                                <div class="progreso">
+                                <div class="progreso10">
                                     <span>90%</span>
                                 </div>
                              </div>
@@ -234,7 +235,7 @@
                         <div class="habilidades">
                             <span>Dedicacion</span>
                             <div class="barra-habilidades">
-                                 <div class="progreso">
+                                 <div class="progreso11">
                                    <span>90%</span>
                                 </div>
                             </div>
@@ -242,7 +243,7 @@
                         <div class="habilidades">
                             <span>Responsabilidad</span>
                             <div class="barra-habilidades">
-                                <div class="progreso">
+                                <div class="progreso12">
                                     <span>90%</span>
                                 </div>
                             </div>
@@ -250,7 +251,7 @@
                         <div class="habilidades">
                             <span>Puntualidad</span>
                             <div class="barra-habilidades">
-                                <div class="progreso">
+                                <div class="progreso12">
                                    <span>90%</span>
                                 </div>
                             </div>
@@ -271,7 +272,6 @@
                             <h4>Tecnico en Comunicacion Multimedial</h4>
                             <span class="casa">Instituto Superior de Formacion Tecnica Nº 172</span>
                             <span class="fecha"> 2021 - Actualidad</span>
-                           
                             
                             <p></p>
                         </div>
@@ -280,7 +280,6 @@
                             <span class="casa">Formacion por Instructura Jualiana</span>
                             <span class="fecha"> 2021 - 2022</span>
                             <p></p>
-                           
                             
                         </div>
             
@@ -289,7 +288,6 @@
                             <span class="casa">Google activate</span>
                             <span class="fecha"> 2022</span>
                             <p></p>
-                            
                             
                         </div>
 
@@ -325,7 +323,7 @@
         <!--Seccion Porfolio-->
         <section id="portfolio" class="portfolio">
             <div class="contenido-seccion">
-                <h2>Porfolio</h2>
+                <h2>Portfolio</h2>
                 <div class="galeria">
                     <div class="proyecto">
                         <img src="IMAGENES/creacion de contenido (2).jpg" alt="">
@@ -408,12 +406,14 @@
                 <i class="fa-solid fa-angles-up"></i>
             </a>
 
-            <section class="redes">
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </section>    
+            <h2>Yanina Fuentes</h2>
+             
         </footer>
 
-        <!--Alerta de Java al final-->>
+        <!--Alerta Comienzo de pag-->
+        <script src="finalPorfolio.js"></script>
+
+        <!--Alerta de Java al final-->
         <script>
             alert("Porfolio - Yanina Fuentes");
         </script>
